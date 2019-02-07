@@ -17,7 +17,7 @@
 }
 .column {
   float: left;
-  width: 50%;
+  width: 150px;
 }
 .connected-sortable {
   margin: 0 auto;
