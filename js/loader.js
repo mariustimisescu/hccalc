@@ -1,5 +1,5 @@
 var btn = document.getElementById('btn');
-var info = document.getElementById('info');
+var infoArea = document.getElementById('info');
 
 btn.addEventListener("click", function () {
     var request = new XMLHttpRequest();
@@ -12,7 +12,7 @@ btn.addEventListener("click", function () {
 });
 
 function render(data) {
-    info.insertAdjacentHTML('beforeend', 'test123');
+    infoArea.insertAdjacentHTML('beforeend', 'test123');
     console.log(players);
 }
 
