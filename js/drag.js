@@ -1,4 +1,4 @@
-//$(init);
+$(init);
 
 function init() {
     $(".droppable-area1, .droppable-area2").sortable({
