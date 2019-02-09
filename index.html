@@ -2,17 +2,12 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
   <title>HC Calculator</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="css/site.css">
-  <script src="js/loader.js"></script>
-  <script src="js/addTower.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/main.css">
   <script src="js/drag.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+  <script src="js/loader.js"></script>
 </head>
 
 <body>
@@ -20,24 +15,22 @@
     <div>
       </div>
       <button id="btnNewWar">New War</button>
-
       <button id="btnAddTower">Adauga turn</button>
     </div>
-    <div><select class="comboBox" id="towersCount"></select></div>
-    <div id="info">TEXT</div>
   </div>
   <div class="container">
     <div class="row" id="towerConfigurationRow">
-      <div class="column">
+      <div class="column" drag="target">
         <ul class="connected-sortable droppable-area1" id="availablePlayers">
-          Disponibili
+          <p>Disponibili</p>
+          <li drag="item"><div class="draggable-item">item0</div></li>
         </ul>
       </div>
 
-      <div class="column">
-        <select class="comboBox">
-        </select>
-        <ul class="connected-sortable droppable-area2">
+      <div class="column" drag="target">
+        <!-- <select class="comboBox">
+        </select> -->
+        <ul  class="connected-sortable droppable-area2">
         </ul>
       </div>
     </div>

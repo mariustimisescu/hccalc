@@ -21,6 +21,7 @@
   width: 110px;
   border: 1px solid #ccc;
   padding: 5px;
+  min-height: 80px;
 }
 .connected-sortable {
   margin: 1 auto;
@@ -31,6 +32,17 @@
   width: 80%;
 }
 
+div.draggable-item {
+  width: 50px;
+  height: auto;
+  padding: 3px 5px;
+  margin: 7px 4px;
+  font-size: 11px;
+  text-align: center;
+  background-color: #eee;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
 li.draggable-item {
   width: 99%;
   height: auto;
